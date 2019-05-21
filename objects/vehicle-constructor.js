@@ -20,6 +20,7 @@ const Car = function(name) {
 
 Car.prototype = new Vehicle();
 
+
 const Motorcycle = function(name) {
   Vehicle.call(this,name,2);
 };
