@@ -24,7 +24,7 @@ function Car(name){
 
 
 function Motorcycle(name){
-  let car = Object.assign(
+  let motorcycle = Object.assign(
     {wheels: 2},
     {name},
     {wheelie},
@@ -33,7 +33,7 @@ function Motorcycle(name){
 
   function wheelie() {return 'wheelie';}
 
-  return Object.freeze(car);
+  return Object.freeze(motorcycle);
 }
 
 
