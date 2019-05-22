@@ -4,5 +4,13 @@ const List = require('./list-constructor.js');
 
 let stuff = new List();
 stuff.push('a');
+
 stuff.push('b');
-let last = stuff.pop();
+
+stuff.pop();
+stuff.push('b');
+stuff.unshift('b','c');
+
+stuff.forEach(element => {
+  console.log(element);
+});

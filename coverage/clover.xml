@@ -1,66 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1558475710340" clover="3.2.0">
-  <project timestamp="1558475710340" name="All files">
-    <metrics statements="42" coveredstatements="36" conditionals="0" coveredconditionals="0" methods="21" coveredmethods="18" elements="63" coveredelements="54" complexity="0" loc="42" ncloc="42" packages="2" files="4" classes="4"/>
-    <package name="list">
-      <metrics statements="9" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
-      <file name="list.js" path="/mnt/c/Users/CyberpowerPC/devstation/401/labs/lab02-classesInheritanceFunctional/list/list.js">
-        <metrics statements="9" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="objects">
-      <metrics statements="33" coveredstatements="31" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="16"/>
-      <file name="vehicle-class.js" path="/mnt/c/Users/CyberpowerPC/devstation/401/labs/lab02-classesInheritanceFunctional/objects/vehicle-class.js">
-        <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
-      </file>
-      <file name="vehicle-constructor.js" path="/mnt/c/Users/CyberpowerPC/devstation/401/labs/lab02-classesInheritanceFunctional/objects/vehicle-constructor.js">
-        <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="5" count="5" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="2" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="2" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-      </file>
-      <file name="vehicle-factory.js" path="/mnt/c/Users/CyberpowerPC/devstation/401/labs/lab02-classesInheritanceFunctional/objects/vehicle-factory.js">
-        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1558488547961" clover="3.2.0">
+  <project timestamp="1558488547961" name="All files">
+    <metrics statements="27" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2" elements="33" coveredelements="12" complexity="0" loc="27" ncloc="27" packages="1" files="1" classes="1"/>
+    <file name="list-constructor.js" path="/mnt/c/Users/CyberpowerPC/devstation/401/labs/lab02-classesInheritanceFunctional/list/list-constructor.js">
+      <metrics statements="27" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="37" count="0" type="stmt"/>
+      <line num="38" count="0" type="stmt"/>
+      <line num="40" count="0" type="stmt"/>
+      <line num="42" count="0" type="stmt"/>
+      <line num="43" count="0" type="stmt"/>
+      <line num="46" count="0" type="stmt"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="50" count="0" type="stmt"/>
+      <line num="51" count="0" type="stmt"/>
+      <line num="55" count="1" type="stmt"/>
+    </file>
   </project>
 </coverage>
