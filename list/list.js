@@ -28,6 +28,40 @@ class List {
     return returnValue;
   }
 
+
+  shift() {
+    let returnValue = Object.values(this.data[0]);
+    returnValue = returnValue[0];
+    for(let i = 0; i < this.length; i++){
+      this.data[i] = this.data[i+1];
+    }
+    this.pop();
+    return returnValue;
+  }
+
+
+  unshift(...args) {
+    let valuesHolder = Object.values(this.data);
+    for (let i = 0; i < args.length; i++){
+      this.data[i] = args[i];
+    }
+    this.length = args.length;
+  
+    for (let i = 0; i < Object.values(valuesHolder).length; i++){
+      this.push(valuesHolder[i]);
+    }
+    return this.length;
+  }
+
+
+
+  forEach(fn) {
+    for(let i = 0; i < this.length; i++){
+      fn(this.data[i], i);
+    }
+  
+  }
+
 }
 
 module.exports = List;

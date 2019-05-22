@@ -25,9 +25,13 @@ List.prototype.pop = function() {
 };
 
 List.prototype.shift = function() {
-  let returnValue = this.data[0];
-  delete this.data[0];
-  this.length--;
+  let returnValue = Object.values(this.data[0]);
+  returnValue = returnValue[0];
+  for(let i = 0; i < this.length; i++){
+    this.data[i] = this.data[i+1];
+  }
+
+  this.pop();
   return returnValue;
 };
 
