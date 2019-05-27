@@ -1,7 +1,7 @@
 # lab02-classesInheritanceFunctional-
 
 ### Links and Resources
-* [submission PR]()
+* [submission PR](https://github.com/401-advanced-javascript-felipe/lab02-classesInheritanceFunctional-/pull/1)
 
 
   
