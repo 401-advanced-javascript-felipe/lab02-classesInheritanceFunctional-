@@ -47,12 +47,19 @@ describe('List Data Structure', () => {
     expect(stuff.data[3]).toEqual('c');
   });
 
-  it('iterates over the data set', () => {
+  it('iterates over the data set and do something with each item in the dataset. In this case duplicate dataset', () => {
     let stuff = new List();
-    stuff.push('d');
-    stuff.push('c');
-    expect(stuff.length).toEqual(2);
-    expect(stuff.data[1]).toEqual('c');
+    stuff.push(3);
+    stuff.push(5);
+    stuff.push(10);
+    stuff.push(6);
+    let newStuff = new List();
+
+    stuff.forEach((el) => {
+      newStuff.push(el);
+    });
+
+    expect(stuff).toEqual(newStuff);
   });
 
 

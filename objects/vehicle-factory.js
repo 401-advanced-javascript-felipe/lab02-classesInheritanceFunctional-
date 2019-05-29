@@ -1,7 +1,7 @@
 
 'use strict';
 
-const Vehicle = () => ({
+const vehicle = () => ({
   drive: () => {
     return 'driving';
   },
@@ -10,25 +10,22 @@ const Vehicle = () => ({
   }
 });
 
-
-
 function Car(name){
   let car = Object.assign(
     {wheels: 4},
     {name},
-    Vehicle()
+    vehicle()
   );
 
   return Object.freeze(car);
 }
-
 
 function Motorcycle(name){
   let motorcycle = Object.assign(
     {wheels: 2},
     {name},
     {wheelie},
-    Vehicle()
+    vehicle()
   );
 
   function wheelie() {return 'wheelie';}
